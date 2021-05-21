@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+            //デバッグ用に文字列表示
+
+
             //Get menu name which tapped.
             String item = (String)parent.getItemAtPosition(position);
             String show = "あなたが選んだ定食"+ item;
